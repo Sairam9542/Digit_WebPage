@@ -1,0 +1,485 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Figtree", sans-serif; 
+    background-color: transparent;
+}
+ul, ol  {
+    list-style: none;
+    padding: 0px; 
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*Top Bar CSS Starts*/
+.topbar {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(54, 54, 55);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+}
+.topbar ul li a img {
+    margin: 17px;
+}
+
+.topbar-menu a {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 11px;
+    position: relative;
+}
+.topbar-menu a::after {
+    content: " ";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    top: 100%;
+    background: #e5881e;
+    transition: 0.3s;
+}
+.topbar-menu a:hover {
+    color: #00c2ff;
+}
+.topbar-menu a:hover::after {
+    width: 100%;
+}
+
+.topbar button {
+    background-image: linear-gradient(to right, #d9cc7c,#d37334, #d37334, #bdc168);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 15px;
+    color: #ffffff;
+}
+
+/*Top Bar CSS Ends*/
+
+/*Learning Program Section CSS Starts*/
+
+.learning-pg {
+    display: grid;
+    padding: 40px 90px;
+    margin-top: 70px;
+    color: #ffffff;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000000;
+    position: relative;
+    z-index: 1;
+}
+.learning-pg::before {
+    background-image: url('../images/banner-shap.png');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+.learning-sc ul li p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: small;
+    line-height: 1.5;  
+}
+.learning-sc ul li button {
+    background-image: linear-gradient(to right, #0047ff, #00c2ff, #00c2ff, #0047ff);
+    padding: 12px 17px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.learning-img img {
+    border-radius: 10px;
+    margin-top: 25px;
+}
+/*Learning Program Section CSS Ends*/
+
+
+/*About Us Section CSS Starts*/
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 60px;
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url('../images/dots-dg.png');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 60%;
+    background-position-y: 29%;
+}
+
+.aboutus_digit ul li h2 {
+    color: #1324dc;
+}
+.aboutus_digit ul li p {
+    opacity: 0.5;
+    line-height: 1.3;
+}
+.aboutus-ie {
+    display: flex;
+}
+
+.aboutus-ie p {
+    opacity: 0.5;
+    line-height: 1.3;
+}
+.aboutus-ie img {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.aboutus_im img {
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+/*About Us Section CSS Ends*/
+
+/*Courses Section CSS Starts*/
+.course_sc {
+    background-color: #000;
+    padding: 10px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 80px;
+}
+.courses_hd ul li h1 {
+    text-align: center;
+    color: #ffffff;
+}
+.courses_hd ul li h6 {
+    color: #2626e5;
+    text-align: center;
+}
+.card_sp {
+    background-color: #2626e5;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 30px;
+}
+.card {
+    background-color: #161619;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 30px;
+}
+.card ul li p {
+    opacity: 0.5;
+    font-size: small;
+}
+
+.course_ad {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.course_ad h1 span {
+    color: #2626e5;
+    font-weight: bold;
+}
+.course_ad button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #e59526;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.course_ad button:hover {
+    background-color: #ffffff;
+    color: #e59526;
+}
+
+/*Courses Section CSS Ends*/
+
+/*Training facility Section CSS Starts*/
+
+.Training_fc {
+    background-color: #0b0b0b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 70px;
+}
+.choose-wc ul li h5 {
+    color: #2626e5;
+}
+.choose-wc ul li h2 {
+    font-size: xx-large;
+}
+.choose-wc ul li span {
+    color: #e59526;
+    opacity: 1;
+}
+.choose-wc ul li span {
+    color: #e59526;
+}
+
+.choose-wc ul p {
+    opacity: 0.7;
+    line-height: 1.5;
+    font-size: smaller;
+}
+.choose-wc ul span {
+    color: #2626e5;
+}
+.choose-wc ul li button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #3838d8;
+    margin-top: 15px;
+}
+
+.choose-wc ul li button:hover {
+    background-color: #ffffff;
+    color: #2626e5;
+}
+.choose-wc {
+    color: #ffffff;
+}
+
+.container_tf {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card_ye {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    border-bottom: 4px solid #71a7b7;
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.card_ye ul li img {
+    background-color: #ffffff;
+    margin-top: 5px;
+
+}
+.card_ye ul li p {
+    opacity: 0.5;
+}
+.card_rt {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    border-bottom: 4px solid #ce8a52;
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.card_rt ul li p {
+    opacity: 0.5;
+}
+
+.card_rt ul li img {
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+.card_hp {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    border-bottom: 4px solid #d77cd0;
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.card_hp ul li img {
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+.card_hp ul li p {
+    opacity: 0.5;
+}
+/*Training facility Section CSS Ends*/
+
+/*Learners Insight Section CSS Starts*/
+
+.learner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #101010;
+    padding: 20px 80px;
+}
+.learner_dt {
+    display: flex;
+}
+/*Corousel CSS Starts*/
+
+.learner_slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.testimonial-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+    min-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.dots-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0px 2px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dot.active {
+    background-color: #101010;
+    border: 1px solid #ff0000;
+}
+
+/*Corousel CSS Ends*/
+.learner_op h6 {
+    color: #2626e5;
+    margin-top: 60px;
+}
+.learner_op h2 {
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+.learner_rw {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: smaller;
+    line-height: 1.5;
+}
+.learner_dt {
+    color: white;
+}
+.learner_pl {
+    line-height: 0.5;
+    margin-left: 5px;
+}
+.learner_pl p {
+    font-size: small;
+    opacity: 0.7;
+}
+/*Learners Insight Section CSS Ends*/
+
+/*Enrolling Section CSS Starts */
+.enroll_td {
+    background-color: #141414;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 60px;
+}
+.enroll_td ul li span {
+    color: #e59526;
+    font-size: large;
+}
+.enroll_td ul li p {
+    opacity: 0.5;
+    font-size: smaller;
+    text-align: justify;
+    line-height: 1.5;
+}
+.enroll_td ul li button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #3838d8;
+    margin-top: 40px;
+}
+.enroll_td ul li button:hover {
+    background-color: #ffffff;
+    color: #3838d8;
+}
+/*Enrolling Section CSS Ends */
+
+/*Digit Contacts Section CSS Starts*/
+.contacts {
+    padding: 30px;
+    text-align: center;
+}
+.contacts {
+    background-color: #000000;
+}
+.contacts_logo {
+    margin-bottom: 10px;
+}
+.contacts_dt {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    font-size: smaller;
+}
+.contacts_dt ul li  {
+    margin: 5px;
+}
+.contacts_dt ul li a:hover {
+    color: #349ab9;
+}
+
+/*Digit Contacts Section CSS Ends*/
+
+/*Copyright Section CSS Starts*/
+.Copyright {
+    background-color: #000000;
+    padding: 20px 40px;
+    border-top: 1px solid rgb(33, 33, 33);
+}
+.copyrigt_ic ul {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.copyrigt_ic ul li a {
+    padding: 10px;
+}
+.copyright_dt ul li p {
+    color: #ffffff;
+    text-align: center;
+    font-size: small;
+    opacity: 0.7;
+}
+.copyrigt_ic ul li a:hover {
+    color: #349ab9;
+}
+/*Copyright Section CSS Ends*/

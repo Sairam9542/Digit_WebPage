@@ -1,0 +1,209 @@
+/*Responsive CSS for the Mobile starts*/
+
+@media only screen and (max-width: 767px) {
+/*Top Bar CSS responsive Starts*/
+.topbar {
+    flex-direction: column;
+}
+.topbar-menu {
+    text-align: center;
+}
+.topbar-menu a {
+    color: #ffffff;
+    padding: 6px 8px;
+}
+.logo_top {
+    text-align: center;
+}
+/*Top Bar CSS responsive Ends*/
+
+/*Learning Program Responsive CSS Starts*/
+
+.learning-pg {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 20px;
+    padding-top: 80px;
+}
+/*Learning Program Responsive CSS Ends*/
+
+/*About Us Responsive CSS Starts*/
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 30px;
+}
+.aboutus {
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 20%;
+    background-position-y: 84%;
+}
+.aboutus_im img {
+    margin-top: 10px;
+}
+/*About Us Responsive CSS Ends*/
+
+/*Courses Container Responsive CSS Starts*/
+
+.courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 20px;
+}
+.course_ad {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.course_ad button {
+    margin-top: 10px;
+}
+
+/*Courses Container Responsive CSS Ends*/
+
+/*Training facility Responsive  CSS Starts*/
+.Training_fc {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 20px;
+}
+.container_tf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*Training facility Responsive  CSS Ends*/
+
+
+.testimonial {
+    padding: 5px;
+}
+
+
+.learner {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 20px;
+}
+.learner_pl h3 {
+    line-height: 1.3;
+}
+/*Learners Insight Responsive CSS Ends*/
+
+/*Enrolling Section Responsive CSS Starts */
+.enroll_td {
+    padding: 20px 30px;
+}
+.enroll_td ul li p {
+    text-align: center;
+}
+/*Enrolling Section Responsive CSS Ends */
+
+/*Contacts CSS Responsive*/
+.contacts_dt {
+    display: grid;
+    grid-template-columns: 1fr;
+} 
+/*Contacts CSS Responsive*/ 
+
+.Copyright {
+    padding: 10px 20px;
+}
+
+}
+/*Responsive CSS for the Mobiles Ends*/
+
+/*Responsive CSS for the Tabs starts*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+/*Top Bar CSS responsive Starts*/
+.logo_top {
+    text-align: center;
+}
+/*Top Bar CSS responsive Ends*/
+
+/*Learning Program Responsive CSS Starts*/
+
+.learning-pg {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 40px;
+}
+/*Learning Program Responsive CSS Ends*/
+
+/*About Us Responsive CSS Starts*/
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 40px;
+}
+.aboutus {
+    background-image: url('../images/dots-dg.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 12%;
+    background-position-y: 57%;
+}
+.aboutus_im img {
+    margin-top: 10px;
+}
+/*About Us Responsive CSS Ends*/
+
+/*Courses Container Responsive CSS Starts*/
+
+.courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 40px;
+}
+.course_ad {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px 10px;
+}
+.course_ad button {
+    margin-top: 10px;
+}
+
+/*Courses Container Responsive CSS Ends*/
+
+/*Training facility Responsive  CSS Starts*/
+.Training_fc {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*Training facility Responsive  CSS Ends*/
+
+/*Learners Insight Responsive CSS Starts*/
+.learner {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.learner_pl h3 {
+    line-height: 1.3;
+}
+/*Learners Insight Responsive CSS Ends*/
+
+/*Enrolling Section Responsive CSS Starts */
+
+.enroll_td ul li p {
+    text-align: center;
+}
+/*Enrolling Section Responsive CSS Ends */
+
+/*Contacts CSS Responsive*/
+.courses_logo img {
+    margin-left: 60px;
+}
+.contacts_dt {
+    display: grid;
+    grid-template-columns: 1fr;
+} 
+/*Contacts CSS Responsive*/ 
+
+}
+
+/*Responsive CSS for the Tabs Ends*/
